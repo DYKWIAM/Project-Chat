@@ -25,6 +25,7 @@ class Program
             Console.WriteLine("✅ Connected to server!");
         };
 
+        
         // Handle server requesting name
         socket.On("request_name", async (response) =>
         {
