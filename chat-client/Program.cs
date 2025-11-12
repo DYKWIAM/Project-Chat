@@ -17,7 +17,7 @@ class Program
 
     static async Task Main(string[] args)
     {
-        var socket = new SocketIOClient.SocketIO("http://localhost:3000");
+        var socket = new SocketIOClient.SocketIO("https://project-chat-bepj.onrender.com");
 
         // Connected event
         socket.OnConnected += (sender, e) =>
